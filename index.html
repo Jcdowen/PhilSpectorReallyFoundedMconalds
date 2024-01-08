@@ -10,7 +10,12 @@
             background-color: #FFFFCC;
             font-family: 'Comic Sans MS', cursive, sans-serif;
             text-align: center;
-            margin: 20px;
+            margin: 0; /* Remove margin to make the content truly centered */
+            height: 100vh; /* Ensure the content is centered vertically */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         h1 {
@@ -41,8 +46,12 @@
             padding: 10px;
             margin-top: 20px;
         }
+
         .image-container {
             display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
         }
 
         .image-container img {
@@ -58,7 +67,7 @@
     <p class="flashy-text">Uncover the Shocking Truth Behind the Golden Arches!</p>
     <p>Did you know that legendary music producer Phil Spector is the mastermind behind the world-famous McDonald's franchise? Explore the secret connections and hidden stories that link Phil Spector to the fast-food giant.</p>
     <p>Discover exclusive behind-the-scenes footage and witness the untold history of how a music genius turned into a fast-food mogul.</p>
-   <p> Phil Working For McDonalds (1954)</p>
+    <p> Phil Working For McDonalds (1954)</p>
     <div class="image-container">
         <img src="PHIL.PNG" alt="Phil Image 1">
         <img src="PHIL2.PNG" alt="Phil Image 2">
@@ -66,8 +75,6 @@
     <div class="hit-counter">
         <p>Website Hits: 301 <span id="hitCount"></span></p>
     </div>
-
-
 </body>
 
 </html>
