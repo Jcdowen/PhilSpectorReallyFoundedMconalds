@@ -1,41 +1,191 @@
-function createAdElement() {
-    // Generate a random number based on the number of images
-    var randomNumber = Math.floor(Math.random() * imageSources.length);
+<!DOCTYPE html>
+<html lang="en">
 
-    // Choose the image source based on the random number
-    var selectedImage = imageSources[randomNumber];
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Phil Spector: The Secret Founder of McDonald's</title>
+	
+    <style>
+        body {
+            background-color: #FFFFCC;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: auto;
+            width: 800px;
+        }
 
-    // Create an anchor element
-    var anchorElement = document.createElement("a");
-    anchorElement.href = imageSrcs[randomNumber];
+        h1 {
+            align-content: center;
+            color: #FF3366;
+            text-decoration: underline;
+        }
+	    
+	h2 {
+            text-align: center;
+        }
 
-    // Create an image element
-    var imageElement = document.createElement("img");
-    imageElement.src = selectedImage;
+        p {
+            color: #333333;
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: center;
+        }
 
-    // Append the image element to the anchor element
-    anchorElement.appendChild(imageElement);
+        img {
+            max-width: 100%;
+            height: auto;
+        }
 
-    return anchorElement;
-}
+        .flashy-text {
+            text-align: center;
+            font-size: 24px;
+            color: #FF9900;
+            text-shadow: 2px 2px 4px #666666;
+        }
 
-// Array of image sources (add as many as you want)
-var imageSources = [
-    "AD2.PNG",
-    "AD.GIF",
-    "AD3.PNG",
-    "AD4.PNG",
-    "AD5.PNG",
-    "AD6.PNG",
-    "AD7.PNG",
-];
+        .hit-counter {
+            background-color: #000;
+            color: #FFF;
+            padding: 10px;
+            margin-top: 20px;
+            margin: auto;
+            width: 180px;
+        }
 
-var imageSrcs = [
-    "https://gom.us",
-    "https://www.amazon.com/Inspector-Gadget-VHS-French-Stewart/dp/B00007AJLF/ref=sr_1_4?crid=3V6OXZFWAHNAQ&keywords=inspector+gadget+2&qid=1704784728&sprefix=inspector+gadget+2+%2Caps%2C200&sr=8-4",
-    "https://therockeyes.bandcamp.com/",
-    "http://hotmcsingles.com.net/",
-    "http://freexbox720giveaway.com/",
-    "https://www.play-games.com/harry-potter-games.html",
-    "https://www.blockbuster.com/rent/inspector+gadget+dvd+collection",
-];
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            max-height: 200px;
+	    min-height: 200px;
+            width: auto;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+	<div class="hit-counter">
+		<img src="https://memesandgifs.trubox.ca/wp-content/uploads/sites/787/2020/03/JoyfulAfraidAltiplanochinchillamouse-small.gif" style="height: 30px; margin-reight: 0px; display: inline;">  
+		<p style="margin-left:px; display: inline;">Website Hits: 301 <span id="hitCount"></span></p>
+	</div>
+
+    <p>^^^ Sorry <img src="https://i.gifer.com/6G07.gif" style="height: 12px; display: inline;"> This one broke, here's a working one </p>
+    <img src='https://www.free-website-hit-counter.com/c.php?d=9&id=143524&s=39' border='0' alt='Free Website Hit Counter' style="margin-left: 332.5px;">
+   
+<br>
+<hr>
+	
+    <h1>Phil Spector: The Secret Founder of McDonald's</h1>
+    <p class="flashy-text">Uncover the Shocking Truth Behind the Golden Arches!</p>
+
+    <p>In the depths of fast-food history, a remarkable tale has long been shrouded in secrecy and deception. Contrary to popular belief, the iconic McDonald's franchise isn't merely a product of innovative culinary minds but rather the symphonic creation of the legendary music producer, Phil Spector. This astonishing revelation has been buried beneath layers of corporate misinformation, a cacophony of lies orchestrated by the McDonald's Corporation to conceal the true maestro behind their golden arches.</p>
+
+<hr>
+
+    <h2>Phil Spector's Secret</h2>
+
+    <p>Picture this: a young Phil Spector, not only a maestro in the studio but also a culinary virtuoso, orchestrating the founding of McDonald's in the mid-20th century. Exclusive behind-the-scenes footage reveals Phil meticulously crafting the first-ever Big Mac, composing the perfect blend of flavors that would soon captivate taste buds worldwide.</p>
+
+    <p>As the story goes, Phil Spector, seeking a new avenue for his creative genius, ventured into the culinary world. The rhythmic sizzle of burgers on the grill became his muse, and the clinking of spatulas his orchestra. Phil's culinary compositions, inspired by his love for both music and food, laid the foundation for what would become the global phenomenon known as McDonald's.</p>
+
+ <hr>
+
+    <h2>Corporate Cover-Up: A McDeceptive Symphony</h2>
+    <p>In an orchestrated effort to protect their brand image, McDonald's Corporation embarked on a decades-long campaign of misinformation. They concealed Phil Spector's pivotal role in the creation of their empire, creating a narrative that revolved around the McDonald brothers and their supposed ingenuity.</p>
+    <p>Corporate executives composed a symphony of lies, manipulating public perception and rewriting history. The truth about Phil Spector's culinary endeavors was buried beneath layers of fabricated stories and carefully crafted narratives, leaving the world unaware of the maestro's dual identity.</p>
+
+<br><br>
+<hr>
+	<div id="adContainer1"></div>
+<hr>
+	
+    <h2>The Untold History Unveiled</h2>
+    <p>Now, through our investigation, we bring you the untold history of Phil Spector's culinary symphony. Witness the transition of a music genius into a fast-food mogul, as we delve into exclusive footage and testimonials from insiders who dared to speak the truth. Discover the moments when Phil Spector traded his conductor's baton for a spatula, creating harmonies of flavor that would resonate through generations. Explore the clandestine meetings between Spector and the McDonald's brothers, where the blueprint for the fast-food juggernaut was composed in secrecy. As we unveil the hidden harmony, it's essential to question the narratives fed to us by corporate giants. Phil Spector's legacy extends beyond music, revealing a culinary virtuoso who played a pivotal role in shaping one of the most iconic brands in the world. Join us in breaking free from the McDeceptive symphony and embracing the truth behind the golden arches. Phil Spector, the unsung hero, deserves his place in the annals of McDonald's history.</p>
+
+<hr>
+	
+    <h2>Phil Working For McDonalds (1954)</h2>
+    <div class="image-container">
+        <img src="PHIL.PNG" alt="Phil Image 1">
+        <img src="PHIL2.PNG" alt="Phil Image 2">
+	<img src="PHIL3.PNG" alt="Phil Image 3">
+    </div>
+	<hr>
+	<h2>McDonalds Family Photo Album</h2>
+	<div class="image-container">
+        <img src="FAMILY.PNG" alt="Phil Image 1">
+        <img src="FAMILY2.PNG" alt="Phil Image 2">
+	<img src="FAMILY.gif" alt="Phil GIF">
+    </div>
+
+<p> Shown here is an unaltered picture of the McDonalds Family Photo Album, we have rescontructed the once lost photo of Phil, and have provided a comparison as proof they are the same person (as shown by the bridge of the noes which is a perfect match)
+	
+<br><br>
+<hr>
+	<div id="adContainer2"></div>
+<hr>
+	<h2>McDonalds Phil Erasure</h2>
+	<div class="image-container">
+        <img src="UNCROP.PNG" alt="Phil Image 1">
+	<img src="CROP.PNG" alt="Phil Image 2"> 
+    </div>
+	<p>Here's a photo of the McDonald's brothers and Phil Spector, before AND after the McDonald's Corporation's editing. The original photo was found in a goodwill 120 kilometres away from the original McDonald's location, while the edited photo has been seen on TV and in newspapers across the globe.<br><br><b>UPDATE</b>: Thanks to a tip from an anonymous user, we've just recieved a photo of the History Channel using the EDITED image and spreading the Corporation-invented story we've all heard, click <a href="HISTORYPHIL.gif">here</a> to view the photo.</p>
+<br>
+<hr>
+	<h2>Connection to 'Mac Tonight'</h2>
+	<div class="image-container">
+        <img src="MOON.gif" alt="An image of Mac Tonight">
+	<img src="MOON2.gif" alt="A Mac Tonight animatronic"> 
+	<img src="MOON3.gif" alt="Phil Spector holding the modified mold of his face, used decades later for Mac Tonight"> 
+	<img src="MOON.GIF" alt="A comparison of Phil Spector, piano player, and Mac Tonight, also a piano player. Coincidence? I think not.">
+	<img src="PHILMAC.gif" alt="An image of Phil Spector and Mac Tonight"> 
+    </div>
+	<p>In the early 1960s(?), Phil conceived the concept of a singing mascot featuring his music. Although a mold of his face was taken for the mascot, technological limitations hindered the full realization of his idea. Following Phil's departure, they STOLE his concept by creating a singing moon character, utilizing the face mold they had previously obtained. The mascot also wore a copy of Phil's signature sunglasses.</p>
+<br>
+
+	<br><br>
+<hr>
+	<div id="adContainer3"></div>
+<hr>
+<hr>
+	<h2>Easter Eggs in McDonalds Advertising</h2>
+	<div class="image-container">
+        <img src="bill.gif" alt="Phil Image 1">
+	<img src="FISH2.PNG" alt="Phil Image 2"> 
+    </div>
+	<p>Phil originated the concept for the Filet-O-Fish, initially referred to as the "Phil S, Fish" according to certain documents. Early advertisements subtly hinted at this by incorporating it as an Easter egg to the TRUTH. Even in present times, decades after Phil's departure, McDonald's advertisements continue to feature Easter eggs alluding to the true meaning.</p>
+<br>
+
+<hr>
+	<h2> <a href="d.html" style="cursor: help;">"Mr. D" and his connection to McDonalds</a> </h2>
+<hr>	
+	<p class="flashy-text">Last Updated: March 3rd, 2007<br></p>
+<hr>
+	<h2> <a style="cursor: wait; color: #0000EE; 
+		     text-decoration: underline;   
+		     -webkit-user-select: none;
+		     -ms-user-select: none;
+		     user-select: none;">More Evidence</a> </h2>
+<hr>
+	<p>Website created by me, Franc Whetters<br>Creation Date: May 14th, 2006<br>
+	This Web page was created and designed by Franc Whetters<br>
+	© Copyright by Franc Whetters. All rights reserved.</p>
+
+</body>
+
+<script src="script.js"></script>
+    <script>
+        var adContainer1 = document.getElementById("adContainer1");
+        adContainer1.appendChild(createAdElement());
+		var adContainer2 = document.getElementById("adContainer2");
+        adContainer2.appendChild(createAdElement());
+		var adContainer3 = document.getElementById("adContainer3");
+        adContainer3.appendChild(createAdElement());
+    </script>
+	
+</html>
