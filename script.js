@@ -32,6 +32,18 @@ var imageSources = [
     "AD9.PNG",
     "AD10.GIF",
     "AD11.PNG",
+    "AD12.PNG",
+    "AD13.GIF",
+    "AD14.PNG",
+    "AD15.PNG",
+    "AD16.PNG",
+    "AD17.PNG",
+    "AD18.PNG",
+    "AD19.PNG",
+    "AD20.PNG",
+    "AD21.PNG",
+    "AD22.PNG",
+    "AD23.PNG",
 ];
 
 var imageSrcs = [
@@ -46,4 +58,16 @@ var imageSrcs = [
     "https://www.coolmathgames.com/0-papas-pizzeria",
     "https://miniclip.com/",
     "https://www.smbgames.be/",
+    "https://www.fubo.tv/welcome/program/MV001202880000/clockstoppers",
+    "https://www.freegiveawaysdailyfreeconsolesandhandheldsforfreedaily.com",
+    "https://minecraftforfree.com",
+    "https://binweevils.net/",
+    "https://ww2.123moviesfree.net/movie/cars-2-6922/",
+    "https://www.habbo.com/",
+    "https://booboo.cc/games/grad_theft_auto_iv",
+    "https://play.google.com/store/movies/details/Madagascar?id=1WEw795RnGE&hl=en_US&gl=US",
+    "https://cdn-images.threadless.com/threadless-media/artist_shops/shops/teenagestepdad/products/1161026/shirt-1569878674-05c1567310c55d0ad3d2e0a21d0b06c3.png?v=3&d=eyJvcHMiOiBbWyJ0cmltIiwgW2ZhbHNlLCBmYWxzZV0sIHt9XSwgWyJyZXNpemUiLCBbXSwgeyJ3aWR0aCI6IDk5Ni4wLCAiYWxsb3dfdXAiOiBmYWxzZSwgImhlaWdodCI6IDk5Ni4wfV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzEyMDAsIDEyMDBdLCB7ImJhY2tncm91bmQiOiAiMjA5MGI4In1dLCBbInJlc2l6ZSIsIFs4MDBdLCB7fV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzgwMCwgODAwLCAiI2ZmZmZmZiJdLCB7fV0sIFsiZW5jb2RlIiwgWyJqcGciLCA4NV0sIHt9XV0sICJmb3JjZSI6IGZhbHNlLCAib25seV9tZXRhIjogZmFsc2V9",
+    "https://www.crazygames.com/t/minecraft",
+   "https://www.freegiveawaysdailyfreeconsolesandhandheldsforfreedaily.com"
+    "http://loyaltoliberty.com/",
 ];
