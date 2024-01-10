@@ -25,6 +25,8 @@ var imageSources = [
     "AD.GIF",
     "AD3.PNG",
     "AD4.PNG",
+    "AD5.PNG",
+    "AD6.PNG",
 ];
 
 var imageSrcs = [
@@ -32,4 +34,6 @@ var imageSrcs = [
     "https://www.amazon.com/Inspector-Gadget-VHS-French-Stewart/dp/B00007AJLF/ref=sr_1_4?crid=3V6OXZFWAHNAQ&keywords=inspector+gadget+2&qid=1704784728&sprefix=inspector+gadget+2+%2Caps%2C200&sr=8-4",
     "https://therockeyes.bandcamp.com/",
     "http://hotmcsingles.com.net/",
+    "http://freexbox720giveaway.com/",
+    "https://www.play-games.com/harry-potter-games.html",
 ];
