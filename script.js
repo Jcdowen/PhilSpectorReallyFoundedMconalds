@@ -28,6 +28,7 @@ var imageSources = [
     "AD5.PNG",
     "AD6.PNG",
     "AD7.PNG",
+    "AD8.GIF",
 ];
 
 var imageSrcs = [
@@ -38,4 +39,5 @@ var imageSrcs = [
     "http://freexbox720giveaway.com/",
     "https://www.play-games.com/harry-potter-games.html",
     "https://www.blockbuster.com/rent/inspector+gadget+dvd+collection",
+    "https://www.deepdiscount.com/search?q=garfield&mod=AP",
 ];
