@@ -27,6 +27,7 @@ var imageSources = [
     "AD4.PNG",
     "AD5.PNG",
     "AD6.PNG",
+    "AD7.PNG",
 ];
 
 var imageSrcs = [
@@ -36,4 +37,5 @@ var imageSrcs = [
     "http://hotmcsingles.com.net/",
     "http://freexbox720giveaway.com/",
     "https://www.play-games.com/harry-potter-games.html",
+    "https://www.blockbuster.com/rent/inspector+gadget+dvd+collection",
 ];
