@@ -1,0 +1,45 @@
+
+
+<HTML>
+<HEAD>
+<?php
+if(isset($_POST['name']) && isset($_POST['message'])) 
+{ 
+	if($_POST['name'] != "" && $_POST['message'] != "")
+	{
+		$F_D = getdate();
+		$FT = $F_D['mon']."/".$F_D['mday']."/".$F_D['year'];
+
+		$FP = Fopen('guestbook.html',"a");
+		fwrite($FP,"<tr><td>Date: ");
+		fwrite($FP, $FT);
+		fwrite($FP, "</tD></tr><tr><td>Name: ");
+		fwrite($FP, $_POST['name']);
+		fwrite($FP, "</td></tr><tr><td>");
+		fwrite($FP, strip_tags($_POST['message']));
+		fwrite($FP, "</td></tr><tr><td><hr width="90%" color=red></td></tr>");
+		fclose($FP);
+	}
+}
+?> 
+</HEAD>
+<BODY>
+<TABLE cellSpacing=3 cellPadding=2 width="65%" border=9 align=center>
+	<tr>
+		<td><center><u>Guestbook</u></center></td>
+	</tr>
+	<tr>
+		<td>
+			<TABLE cellSpacing=1 cellPadding=0  border=0 align=center style="WIDTH: 95%; HEIGHT: 54px">
+				<tr>
+					<td><form action="guestbook.php" method=post>Name: <input type=text width="90%" name="name"><br><t_extarea cols=60 rows=10 name="message"></t_extarea><br><Br><input type=submit value="Post"></form></td>
+				</tr>
+			</table>
+			<TABLE cellSpacing=3 cellPadding=2 width="65%" border=9 align=center> 
+				<?php include("guestbook.html"); ?>
+			</TABLE>
+		</td>
+	</tr>
+</TABLE> 
+</BODY>
+</HTML>
