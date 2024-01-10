@@ -31,6 +31,7 @@ var imageSources = [
     "AD8.GIF",
     "AD9.PNG",
     "AD10.GIF",
+    "AD11.PNG",
 ];
 
 var imageSrcs = [
@@ -44,4 +45,5 @@ var imageSrcs = [
     "https://www.deepdiscount.com/search?q=garfield&mod=AP",
     "https://www.coolmathgames.com/0-papas-pizzeria",
     "https://miniclip.com/",
+    "https://www.smbgames.be/",
 ];
