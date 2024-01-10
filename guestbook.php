@@ -6,7 +6,7 @@ if(isset($_POST['name']) && isset($_POST['message']))
 		$F_D = getdate();
 		$FT = $F_D['mon']."/".$F_D['mday']."/".$F_D['year'];
 
-		$FP = Fopen('guestbook.html',"a");
+		$FP = Fopen('/guestbook.html',"a");
 		fwrite($FP,"<tr><td>Date: ");
 		fwrite($FP, $FT);
 		fwrite($FP, "</tD></tr><tr><td>Name: ");
