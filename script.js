@@ -23,9 +23,13 @@ function createAdElement() {
 var imageSources = [
     "AD2.PNG",
     "AD.GIF",
+    "AD3.PNG",
+    "AD4.PNG",
 ];
 
 var imageSrcs = [
     "https://gom.us",
     "https://www.amazon.com/Inspector-Gadget-VHS-French-Stewart/dp/B00007AJLF/ref=sr_1_4?crid=3V6OXZFWAHNAQ&keywords=inspector+gadget+2&qid=1704784728&sprefix=inspector+gadget+2+%2Caps%2C200&sr=8-4",
+    "https://therockeyes.bandcamp.com/",
+    "http://hotmcsingles.com.net/",
 ];
