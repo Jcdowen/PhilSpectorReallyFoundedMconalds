@@ -26,7 +26,7 @@ var imageSources = [
     "AD3.PNG",
     "AD4.PNG",
     "AD5.PNG",
-    "AD6.png",
+    "AD6.PNG",
     "AD7.PNG",
     "AD8.GIF",
 ];
