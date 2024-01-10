@@ -30,6 +30,7 @@ var imageSources = [
     "AD7.PNG",
     "AD8.GIF",
     "AD9.PNG",
+    "AD10.GIF",
 ];
 
 var imageSrcs = [
@@ -42,4 +43,5 @@ var imageSrcs = [
     "https://www.blockbuster.com/rent/inspector+gadget+dvd+collection",
     "https://www.deepdiscount.com/search?q=garfield&mod=AP",
     "https://www.coolmathgames.com/0-papas-pizzeria",
+    "https://miniclip.com/",
 ];
