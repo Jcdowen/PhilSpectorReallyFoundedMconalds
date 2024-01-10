@@ -68,6 +68,6 @@ var imageSrcs = [
     "https://play.google.com/store/movies/details/Madagascar?id=1WEw795RnGE&hl=en_US&gl=US",
     "https://cdn-images.threadless.com/threadless-media/artist_shops/shops/teenagestepdad/products/1161026/shirt-1569878674-05c1567310c55d0ad3d2e0a21d0b06c3.png?v=3&d=eyJvcHMiOiBbWyJ0cmltIiwgW2ZhbHNlLCBmYWxzZV0sIHt9XSwgWyJyZXNpemUiLCBbXSwgeyJ3aWR0aCI6IDk5Ni4wLCAiYWxsb3dfdXAiOiBmYWxzZSwgImhlaWdodCI6IDk5Ni4wfV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzEyMDAsIDEyMDBdLCB7ImJhY2tncm91bmQiOiAiMjA5MGI4In1dLCBbInJlc2l6ZSIsIFs4MDBdLCB7fV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzgwMCwgODAwLCAiI2ZmZmZmZiJdLCB7fV0sIFsiZW5jb2RlIiwgWyJqcGciLCA4NV0sIHt9XV0sICJmb3JjZSI6IGZhbHNlLCAib25seV9tZXRhIjogZmFsc2V9",
     "https://www.crazygames.com/t/minecraft",
-   "https://www.freegiveawaysdailyfreeconsolesandhandheldsforfreedaily.com"
+   "https://www.freegiveawaysdailyfreeconsolesandhandheldsforfreedaily.com",
     "http://loyaltoliberty.com/",
 ];
