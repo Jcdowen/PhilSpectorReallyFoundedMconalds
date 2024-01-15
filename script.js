@@ -44,6 +44,7 @@ var imageSources = [
     "AD21.PNG",
     "AD22.PNG",
     "AD23.PNG",
+    "AD24.PNG",
 ];
 
 var imageSrcs = [
@@ -70,4 +71,5 @@ var imageSrcs = [
     "https://www.crazygames.com/t/minecraft",
    "https://www.freegiveawaysdailyfreeconsolesandhandheldsforfreedaily.com",
     "http://loyaltoliberty.com/",
+    "https://www.amazon.co.uk/Robots-DVD-Chris-Wedge/dp/B0009WILB4",
 ];
