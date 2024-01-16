@@ -2,7 +2,7 @@
 
 // Function to generate a random number between 1 and 100
 function getRandomNumber() {
-    return Math.floor(Math.random() * 5) + 1;
+    return Math.floor(Math.random() * 40) + 1;
 }
 
 // Function to decide whether to redirect or not
