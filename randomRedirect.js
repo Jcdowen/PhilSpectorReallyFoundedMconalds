@@ -2,13 +2,13 @@
 
 // Function to generate a random number between 1 and 100
 function getRandomNumber() {
-    return Math.floor(Math.random() * 25) + 1;
+    return Math.floor(Math.random() * 100) + 1;
 }
 
 // Function to decide whether to redirect or not
 function decideRedirect() {
     // Set the chance of redirect (1 in 100)
-    const chanceOfRedirect = 1;
+    const chanceOfRedirect = 0.3;
 
     // Generate a random number
     const randomNumber = getRandomNumber();
